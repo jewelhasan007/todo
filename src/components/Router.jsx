@@ -4,6 +4,7 @@ import {
 import Root from "./Root";
 import Home from "./Home";
 import FoundationWorks from "./FoundationWorks";
+import FoundationWorks2 from "./FoundationWorks2";
 
 
   const router = createBrowserRouter([
@@ -17,6 +18,10 @@ import FoundationWorks from "./FoundationWorks";
         },
         {path: "/foundation",
           element: <FoundationWorks></FoundationWorks>,
+        },
+        
+        {path: "/foundation2",
+          element: <FoundationWorks2></FoundationWorks2>,
         },
       ]
     },

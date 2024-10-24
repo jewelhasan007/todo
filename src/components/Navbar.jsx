@@ -12,6 +12,7 @@ const menuLists = [
     <li><a>MCC3</a></li>,
     <li><a>E-Crane</a></li>,
     <li><NavLink to="/foundation">Foundation</NavLink></li>,
+    <li><NavLink to="/foundation2">Foundation2</NavLink></li>,
 ]
 
     return (
